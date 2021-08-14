@@ -1,0 +1,41 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  line-height: 1.4em;
+  color: #111;
+  background-color: #111;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.25em;
+}
+
+hr {
+  border: 1px solid #111;
+}
+
+.card {
+  padding: 2em;
+  margin: 1em;
+  width: 25em;
+  background-color: #ee0;
+}
+
+@media screen and (max-width: 35em) {
+  .card {
+    width: auto;
+  }
+}
+
